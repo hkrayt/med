@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Clinical Precision | Premium Medical Education</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "secondary-fixed-dim": "#8ad3d7",
+              "outline-variant": "#c3c6d1",
+              "inverse-primary": "#a7c8ff",
+              "on-tertiary-container": "#30aca0",
+              "error": "#ba1a1a",
+              "surface-tint": "#3a5f94",
+              "on-tertiary-fixed-variant": "#005049",
+              "inverse-surface": "#2e3132",
+              "error-container": "#ffdad6",
+              "secondary": "#14696d",
+              "surface-bright": "#f8f9fa",
+              "on-tertiary-fixed": "#00201d",
+              "on-error-container": "#93000a",
+              "on-primary": "#ffffff",
+              "background": "#f8f9fa",
+              "primary": "#001e40",
+              "tertiary": "#00231f",
+              "on-error": "#ffffff",
+              "primary-fixed-dim": "#a7c8ff",
+              "secondary-container": "#a3ecf0",
+              "on-surface": "#191c1d",
+              "on-background": "#191c1d",
+              "inverse-on-surface": "#f0f1f2",
+              "on-tertiary": "#ffffff",
+              "surface": "#f8f9fa",
+              "on-secondary": "#ffffff",
+              "primary-fixed": "#d5e3ff",
+              "on-secondary-container": "#1b6d71",
+              "surface-container-low": "#f3f4f5",
+              "on-primary-container": "#799dd6",
+              "surface-container-lowest": "#ffffff",
+              "surface-variant": "#e1e3e4",
+              "tertiary-fixed": "#84f5e8",
+              "tertiary-fixed-dim": "#66d9cc",
+              "surface-container-highest": "#e1e3e4",
+              "on-surface-variant": "#43474f",
+              "tertiary-container": "#003a35",
+              "on-primary-fixed-variant": "#1f477b",
+              "on-secondary-fixed": "#002021",
+              "surface-container": "#edeeef",
+              "surface-dim": "#d9dadb",
+              "on-secondary-fixed-variant": "#004f53",
+              "secondary-fixed": "#a6eff3",
+              "on-primary-fixed": "#001b3c"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(20px);
+        }
+    </style>
+</head>
+<body class="bg-background font-body text-on-surface">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 glass-nav shadow-sm">
+<div class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
+<div class="flex items-center gap-8">
+<span class="text-xl font-bold text-primary font-headline tracking-tight">Clinical Precision</span>
+<div class="hidden md:flex gap-6 items-center">
+<a class="font-headline font-semibold tracking-tight text-secondary border-b-2 border-secondary pb-1" href="#">Home</a>
+<a class="font-headline font-semibold tracking-tight text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Courses</a>
+<a class="font-headline font-semibold tracking-tight text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Pricing</a>
+<a class="font-headline font-semibold tracking-tight text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">About</a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="hidden sm:flex items-center gap-4 mr-4">
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer hover:text-primary transition-colors">notifications</span>
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer hover:text-primary transition-colors">account_circle</span>
+</div>
+<button class="bg-primary text-on-primary px-5 py-2 rounded-lg font-headline font-semibold active:scale-95 duration-150">Sign In</button>
+</div>
+</div>
+<div class="bg-surface-variant/30 h-[1px] w-full"></div>
+</nav>
+<main class="pt-20">
+<!-- Hero Section -->
+<section class="relative overflow-hidden pt-20 pb-32 px-6">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="z-10">
+<span class="inline-block py-1 px-3 rounded-full bg-secondary-container text-on-secondary-container font-label text-xs font-bold tracking-wider uppercase mb-6">Peer-Reviewed Excellence</span>
+<h1 class="font-headline text-display-lg text-5xl md:text-6xl font-extrabold text-primary leading-tight tracking-tighter mb-8">
+                        The Editorial Standard in <span class="text-secondary">Medical Learning.</span>
+</h1>
+<p class="text-on-surface-variant text-lg md:text-xl max-w-xl mb-10 leading-relaxed">
+                        Master clinical reasoning through curated, high-fidelity modules designed by world-renowned specialists. Precision education for the modern clinician.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-primary text-on-primary px-8 py-4 rounded-lg font-headline font-bold text-lg hover:bg-primary-container transition-all shadow-lg active:scale-95">Start Learning Today</button>
+<button class="bg-transparent border border-outline-variant/30 text-primary px-8 py-4 rounded-lg font-headline font-bold text-lg hover:bg-surface-container-low transition-all">View Curriculum</button>
+</div>
+</div>
+<div class="relative lg:h-[600px] flex items-center justify-center">
+<div class="absolute inset-0 bg-gradient-to-tr from-primary/10 to-secondary/10 rounded-3xl -rotate-3 scale-105"></div>
+<div class="relative w-full aspect-square md:aspect-video lg:aspect-square bg-surface-container-lowest rounded-xl shadow-2xl overflow-hidden group">
+<img alt="Modern clinical teaching environment" class="w-full h-full object-cover grayscale-[0.2] group-hover:scale-105 transition-transform duration-700" data-alt="Modern medical professional using digital tablet in clean clinical setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3twukFsT-8VwM2KkBYKeNIPSlEzJgw25hwNAGFx0MB9PUfvlmalzPhbvs9T7UajUdaMXO04Sa8Xx73AOLonA86TvRmwd6Jg_pQXNKxlyDWnB7BZD1ApQHHJPAIxbSjVCMYDKgQRh4xL7ERlb6uxZvhCXk-w7w-uAGTjLA6fh7pOkelIDfHrDBhKnoKJYCNfaXzUZKARiGnFppAudEBs6GGg2vG5fudjmc6kxw_Y-GKu00wsHowEf43S1CNV3g6ShIrhnfJdmwV4I"/>
+<div class="absolute bottom-6 left-6 right-6 p-6 bg-surface-container-lowest/90 backdrop-blur-md rounded-lg shadow-xl border-l-4 border-secondary">
+<p class="font-headline font-bold text-primary italic">"Clinical Precision transformed my board prep from rote memorization to deep conceptual understanding."</p>
+<p class="mt-2 text-sm text-secondary font-semibold">— Dr. Elena Rodriguez, PGY-2</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Featured Courses Section (Bento Grid) -->
+<section class="bg-surface-container-low py-32 px-6">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+<div>
+<h2 class="font-headline text-4xl font-extrabold text-primary mb-4">Clinical Mastery Series</h2>
+<p class="text-on-surface-variant text-lg max-w-2xl">High-impact trajectories designed for immediate clinical application.</p>
+</div>
+<a class="text-secondary font-headline font-bold flex items-center gap-2 group" href="#">
+                        Browse all courses
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+<!-- Large Feature -->
+<div class="md:col-span-8 group cursor-pointer">
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all h-full">
+<div class="relative h-72">
+<img alt="Advanced Cardiology Illustration" class="w-full h-full object-cover" data-alt="Hyper-detailed medical illustration of human heart and arteries" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3twukFsT-8VwM2KkBYKeNIPSlEzJgw25hwNAGFx0MB9PUfvlmalzPhbvs9T7UajUdaMXO04Sa8Xx73AOLonA86TvRmwd6Jg_pQXNKxlyDWnB7BZD1ApQHHJPAIxbSjVCMYDKgQRh4xL7ERlb6uxZvhCXk-w7w-uAGTjLA6fh7pOkelIDfHrDBhKnoKJYCNfaXzUZKARiGnFppAudEBs6GGg2vG5fudjmc6kxw_Y-GKu00wsHowEf43S1CNV3g6ShIrhnfJdmwV4I"/>
+<div class="absolute top-4 left-4">
+<span class="bg-tertiary-container text-on-tertiary-container px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest">Masterclass</span>
+</div>
+</div>
+<div class="p-8">
+<div class="flex items-center gap-4 mb-4 text-secondary text-sm font-semibold uppercase tracking-tighter">
+<span>24 Modules</span>
+<span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+<span>12 CME Credits</span>
+</div>
+<h3 class="font-headline text-3xl font-bold text-primary mb-4">Advanced Cardiology: Hemodynamics &amp; Interventions</h3>
+<p class="text-on-surface-variant leading-relaxed mb-6">A deep dive into complex cardiovascular physiology and the latest interventional guidelines peer-reviewed by the Academic Heart Center.</p>
+<div class="w-full h-1 bg-surface-container-highest rounded-full">
+<div class="h-full w-3/4 bg-gradient-to-r from-secondary to-secondary-fixed rounded-full"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Small Feature 1 -->
+<div class="md:col-span-4 group cursor-pointer">
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all h-full border-t-2 border-tertiary-fixed-dim">
+<div class="relative h-48">
+<img alt="Neurology brain scan" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" data-alt="Digital blue brain scan illustrating neural pathways" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3twukFsT-8VwM2KkBYKeNIPSlEzJgw25hwNAGFx0MB9PUfvlmalzPhbvs9T7UajUdaMXO04Sa8Xx73AOLonA86TvRmwd6Jg_pQXNKxlyDWnB7BZD1ApQHHJPAIxbSjVCMYDKgQRh4xL7ERlb6uxZvhCXk-w7w-uAGTjLA6fh7pOkelIDfHrDBhKnoKJYCNfaXzUZKARiGnFppAudEBs6GGg2vG5fudjmc6kxw_Y-GKu00wsHowEf43S1CNV3g6ShIrhnfJdmwV4I"/>
+</div>
+<div class="p-6">
+<h3 class="font-headline text-xl font-bold text-primary mb-3">Neurology Fundamentals</h3>
+<p class="text-on-surface-variant text-sm mb-6">Master the localizing neurological exam and diagnostic pathways.</p>
+<button class="text-secondary font-bold text-sm flex items-center gap-1 group">
+                                    Enroll Now
+                                    <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Small Feature 2 -->
+<div class="md:col-span-4 group cursor-pointer">
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all h-full">
+<div class="p-6 h-full flex flex-col">
+<span class="material-symbols-outlined text-secondary text-4xl mb-4" data-weight="fill">fluid_med</span>
+<h3 class="font-headline text-xl font-bold text-primary mb-3">Critical Care Ventilation</h3>
+<p class="text-on-surface-variant text-sm flex-grow">Interactive simulations for ventilator management in the ICU.</p>
+<div class="mt-6 flex items-center justify-between">
+<span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest">New Release</span>
+<span class="material-symbols-outlined text-primary">bookmark</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Medium Feature -->
+<div class="md:col-span-8 group cursor-pointer">
+<div class="bg-primary text-on-primary rounded-xl overflow-hidden h-full flex flex-col md:flex-row shadow-lg">
+<div class="md:w-1/2 p-8">
+<h3 class="font-headline text-2xl font-bold mb-4">The Precision Library</h3>
+<p class="text-on-primary/80 mb-6">Gain access to 500+ clinical case studies and high-resolution radiographic archives.</p>
+<button class="bg-on-primary text-primary px-6 py-2 rounded font-bold text-sm">Subscribe &amp; Save</button>
+</div>
+<div class="md:w-1/2 bg-primary-container p-4 overflow-hidden relative">
+<div class="flex flex-wrap gap-2 relative z-10">
+<span class="bg-white/10 px-3 py-1 rounded text-xs">Radiology</span>
+<span class="bg-white/10 px-3 py-1 rounded text-xs">Pathology</span>
+<span class="bg-white/10 px-3 py-1 rounded text-xs">Pharmacology</span>
+<span class="bg-white/10 px-3 py-1 rounded text-xs">EMR Optimization</span>
+</div>
+<div class="absolute -bottom-10 -right-10 opacity-20">
+<span class="material-symbols-outlined text-[120px]" data-weight="fill">magnification_small</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Faculty Section -->
+<section class="py-32 px-6 bg-surface">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-20">
+<h2 class="font-headline text-4xl font-extrabold text-primary mb-4">World-Class Faculty</h2>
+<p class="text-on-surface-variant max-w-2xl mx-auto italic">Taught by the leaders of academic medicine and pioneering researchers.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
+<div class="text-center group">
+<div class="relative inline-block mb-6">
+<div class="absolute -inset-2 bg-gradient-to-br from-secondary/20 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
+<img alt="Dr. Sarah Jenkins" class="w-32 h-32 rounded-full object-cover mx-auto relative z-10" data-alt="Professional portrait of a female doctor in a white coat" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtRRR0X4G6N_7LxA0NWrIoIObcHQsCdS5Yn-csVvPGiSHZXJ9syHJbpe9KHC7KiDN8Fhpraq5Owmrkqgu6zRSkh914UOrgzyOryhL4e1G1-AIQ8j2llV_OQyCtXKL4uz1N6llAbIn-XoJPXFEvTaDYKTTFxECAJMpxOgXZlzrg0afC-hV4Iy6r1Bc573kXPFJJesFt6wV4Pdm-uE7wiwK0bm0ac60bGd3XGbTuVkyfrOJxXDP-geUyCXnFLntALkVYmpJzvcX9rVE"/>
+</div>
+<h4 class="font-headline text-xl font-bold text-primary">Dr. Sarah Jenkins</h4>
+<p class="text-secondary font-label text-xs font-bold uppercase tracking-widest mt-1">CHIEF OF NEUROLOGY</p>
+<p class="text-on-surface-variant text-sm mt-4 px-4 leading-relaxed">Pioneering investigator in neuro-regenerative medicine at Johns Hopkins.</p>
+</div>
+<div class="text-center group">
+<div class="relative inline-block mb-6">
+<div class="absolute -inset-2 bg-gradient-to-br from-secondary/20 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
+<img alt="Dr. Marcus Thorne" class="w-32 h-32 rounded-full object-cover mx-auto relative z-10" data-alt="Professional portrait of a male surgeon" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3twukFsT-8VwM2KkBYKeNIPSlEzJgw25hwNAGFx0MB9PUfvlmalzPhbvs9T7UajUdaMXO04Sa8Xx73AOLonA86TvRmwd6Jg_pQXNKxlyDWnB7BZD1ApQHHJPAIxbSjVCMYDKgQRh4xL7ERlb6uxZvhCXk-w7w-uAGTjLA6fh7pOkelIDfHrDBhKnoKJYCNfaXzUZKARiGnFppAudEBs6GGg2vG5fudjmc6kxw_Y-GKu00wsHowEf43S1CNV3g6ShIrhnfJdmwV4I"/>
+</div>
+<h4 class="font-headline text-xl font-bold text-primary">Dr. Marcus Thorne</h4>
+<p class="text-secondary font-label text-xs font-bold uppercase tracking-widest mt-1">THORACIC SURGERY</p>
+<p class="text-on-surface-variant text-sm mt-4 px-4 leading-relaxed">Lead surgical educator focusing on minimally invasive techniques.</p>
+</div>
+<div class="text-center group">
+<div class="relative inline-block mb-6">
+<div class="absolute -inset-2 bg-gradient-to-br from-secondary/20 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
+<img alt="Dr. Amara Okoro" class="w-32 h-32 rounded-full object-cover mx-auto relative z-10" data-alt="Professional portrait of a female medical professor" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3twukFsT-8VwM2KkBYKeNIPSlEzJgw25hwNAGFx0MB9PUfvlmalzPhbvs9T7UajUdaMXO04Sa8Xx73AOLonA86TvRmwd6Jg_pQXNKxlyDWnB7BZD1ApQHHJPAIxbSjVCMYDKgQRh4xL7ERlb6uxZvhCXk-w7w-uAGTjLA6fh7pOkelIDfHrDBhKnoKJYCNfaXzUZKARiGnFppAudEBs6GGg2vG5fudjmc6kxw_Y-GKu00wsHowEf43S1CNV3g6ShIrhnfJdmwV4I"/>
+</div>
+<h4 class="font-headline text-xl font-bold text-primary">Dr. Amara Okoro</h4>
+<p class="text-secondary font-label text-xs font-bold uppercase tracking-widest mt-1">EMERGENCY MEDICINE</p>
+<p class="text-on-surface-variant text-sm mt-4 px-4 leading-relaxed">Specialist in bedside ultrasonography and trauma protocols.</p>
+</div>
+<div class="text-center group">
+<div class="relative inline-block mb-6">
+<div class="absolute -inset-2 bg-gradient-to-br from-secondary/20 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
+<img alt="Dr. James Liang" class="w-32 h-32 rounded-full object-cover mx-auto relative z-10" data-alt="Portrait of a medical professional with a friendly expression" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3twukFsT-8VwM2KkBYKeNIPSlEzJgw25hwNAGFx0MB9PUfvlmalzPhbvs9T7UajUdaMXO04Sa8Xx73AOLonA86TvRmwd6Jg_pQXNKxlyDWnB7BZD1ApQHHJPAIxbSjVCMYDKgQRh4xL7ERlb6uxZvhCXk-w7w-uAGTjLA6fh7pOkelIDfHrDBhKnoKJYCNfaXzUZKARiGnFppAudEBs6GGg2vG5fudjmc6kxw_Y-GKu00wsHowEf43S1CNV3g6ShIrhnfJdmwV4I"/>
+</div>
+<h4 class="font-headline text-xl font-bold text-primary">Dr. James Liang</h4>
+<p class="text-secondary font-label text-xs font-bold uppercase tracking-widest mt-1">INTERNAL MEDICINE</p>
+<p class="text-on-surface-variant text-sm mt-4 px-4 leading-relaxed">Curator of the Clinical Reasoning series and diagnostic AI researcher.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Social Proof/Testimonials -->
+<section class="py-32 px-6 bg-surface-container-low overflow-hidden">
+<div class="max-w-7xl mx-auto relative">
+<div class="absolute -top-20 -right-20 opacity-5 select-none">
+<span class="material-symbols-outlined text-[300px]">format_quote</span>
+</div>
+<div class="mb-16">
+<h2 class="font-headline text-4xl font-extrabold text-primary mb-4">Trusted by the Frontline</h2>
+<p class="text-on-surface-variant text-lg">Joined by over 45,000 residents, fellows, and attending physicians.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border-l-4 border-secondary/30 relative">
+<div class="flex gap-1 text-secondary mb-4">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-primary font-body font-medium italic mb-6 leading-relaxed">"The visual quality of the cardiology modules is unlike anything else available. It’s like having a senior attending sitting right next to you."</p>
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-secondary font-bold">DR</div>
+<div>
+<p class="text-sm font-bold text-primary">David R., Cardiology Fellow</p>
+<p class="text-xs text-on-surface-variant">Stanford Health Care</p>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border-l-4 border-secondary/30 relative">
+<div class="flex gap-1 text-secondary mb-4">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-primary font-body font-medium italic mb-6 leading-relaxed">"As a resident, time is my most valuable resource. Clinical Precision delivers high-yield content without the fluff."</p>
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-secondary font-bold">AK</div>
+<div>
+<p class="text-sm font-bold text-primary">Anjali K., Internal Medicine PGY-1</p>
+<p class="text-xs text-on-surface-variant">Mass General Brigham</p>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border-l-4 border-secondary/30 relative">
+<div class="flex gap-1 text-secondary mb-4">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-primary font-body font-medium italic mb-6 leading-relaxed">"We use these modules for our department's grand rounds. The peer-reviewed accuracy is impeccable."</p>
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-secondary font-bold">TF</div>
+<div>
+<p class="text-sm font-bold text-primary">Thomas F., Attending Physician</p>
+<p class="text-xs text-on-surface-variant">Mayo Clinic</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Final Section -->
+<section class="py-24 px-6 bg-primary text-on-primary">
+<div class="max-w-4xl mx-auto text-center">
+<h2 class="font-headline text-4xl md:text-5xl font-extrabold mb-8 tracking-tight">Elevate Your Clinical Practice.</h2>
+<p class="text-lg md:text-xl text-on-primary/70 mb-12">Institutional licenses available for medical schools and hospital systems.</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<button class="bg-secondary text-on-secondary px-10 py-4 rounded-lg font-headline font-bold text-lg hover:bg-secondary-fixed-dim transition-all">Get Started</button>
+<button class="bg-primary-container text-on-primary px-10 py-4 rounded-lg font-headline font-bold text-lg hover:bg-white/10 transition-all border border-white/20">Contact Sales</button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full border-t border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 px-8 py-12 max-w-7xl mx-auto">
+<div class="md:col-span-1">
+<span class="font-manrope font-bold text-lg text-slate-900 dark:text-white block mb-4">Clinical Precision</span>
+<p class="font-inter text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
+                    Excellence in medical education, curated by clinicians for clinicians. Peer-reviewed content for the modern practitioner.
+                </p>
+</div>
+<div>
+<h4 class="font-bold text-primary mb-4 text-sm uppercase tracking-widest">Resources</h4>
+<ul class="space-y-3">
+<li><a class="font-inter text-sm text-slate-500 hover:text-slate-900 transition-all" href="#">Medical Resources</a></li>
+<li><a class="font-inter text-sm text-slate-500 hover:text-slate-900 transition-all" href="#">Faculty Directory</a></li>
+<li><a class="font-inter text-sm text-slate-500 hover:text-slate-900 transition-all" href="#">CME Accreditation</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-primary mb-4 text-sm uppercase tracking-widest">Legal</h4>
+<ul class="space-y-3">
+<li><a class="font-inter text-sm text-slate-500 hover:text-slate-900 transition-all" href="#">Privacy Policy</a></li>
+<li><a class="font-inter text-sm text-slate-500 hover:text-slate-900 transition-all" href="#">Terms of Service</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-primary mb-4 text-sm uppercase tracking-widest">Connect</h4>
+<ul class="space-y-3">
+<li><a class="font-inter text-sm text-slate-500 hover:text-slate-900 transition-all" href="#">Contact Us</a></li>
+<li><a class="font-inter text-sm text-slate-500 hover:text-slate-900 transition-all" href="#">LinkedIn</a></li>
+<li><a class="font-inter text-sm text-slate-500 hover:text-slate-900 transition-all" href="#">Twitter</a></li>
+</ul>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-8 py-6 border-t border-slate-200/50">
+<p class="font-inter text-sm text-slate-500 text-center md:text-left">
+                © 2024 Clinical Precision Framework. All medical content is peer-reviewed.
+            </p>
+</div>
+</footer>
+</body></html>
+osama
